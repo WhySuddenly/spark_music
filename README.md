@@ -25,6 +25,9 @@ API用的是网易云音乐的，[NeteaseCloudMusicApi](https://github.com/Binar
 
 	const port = process.env.PORT || 4000
 
+### IDE
+VScode
+
 ### 实现的功能
 - 暂停/播放
 - 进度条拖动
