@@ -1,68 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 火花音乐播放器
 
-## Available Scripts
+使用React做的一个简单的网页音乐播放器React练手项目，新手适用
+API用的是网易云音乐的，[NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
 
-In the project directory, you can run:
+### 技术栈
+- react
+- redux
+- react-redux
+- redux-thunk
+- styled-compnents
+- axios
+- immutable
+- redux-immutable
+- antd
 
-### `npm start`
+### 安装
+	git clone git@github.com:WhySuddenly/spark_music.git
+	npm install
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 运行
+	npm start
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+\* 注意：项目里面网易云API我用的是 localhost：4000 端口，请务必把网易云API项目拷下来之后在 `app.js` 里面修改端口号为 4000 \*
 
-### `npm test`
+	const port = process.env.PORT || 4000
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 实现的功能
+- 暂停/播放
+- 进度条拖动
+- 歌词滚动
+- 背景图随专辑图改变
+- 音量调节
+- 上一首/下一首
+- 歌单切换
+- 歌曲搜索
 
-### `npm run build`
+\* 后续会添加更多源，敬请期待... 
+\* 现在是网页PC版的排版，后续会添加响应式排版
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 图片预览
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+![markdown](https://raw.githubusercontent.com/WhySuddenly/source/master/images/cover.png "首页")
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![markdown](https://raw.githubusercontent.com/WhySuddenly/source/master/images/search.gif "搜索")
 
-### `npm run eject`
+![markdown](https://raw.githubusercontent.com/WhySuddenly/source/master/images/play.gif "播放/暂停")
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![markdown](https://raw.githubusercontent.com/WhySuddenly/source/master/images/Progress-bar.gif "进度条")
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![markdown](https://raw.githubusercontent.com/WhySuddenly/source/master/images/song-sheet.gif "歌单")
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![markdown](https://raw.githubusercontent.com/WhySuddenly/source/master/images/Lyric.gif "歌词滚动")
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## 特别鸣谢
+[NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
