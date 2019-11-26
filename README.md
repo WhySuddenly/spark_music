@@ -1,7 +1,7 @@
 # 火花音乐播放器(0.1.0)
 
-使用React做的一个简单的网页音乐播放器React练手项目，新手适用
-API用的是网易云音乐的，[NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
+使用React做的一个简单的网页音乐播放器React练手项目，新手适用。
+#####API用的是网易云音乐的，[NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
 
 ### 技术栈
 - react
